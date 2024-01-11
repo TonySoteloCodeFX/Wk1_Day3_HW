@@ -1,0 +1,34 @@
+* {
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.flex_container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #00ffff;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 45px;
+    color: white;
+}
+
+.flex_nav {
+    height: 80px;
+}
+
+.flex_nav:a {
+    color: white;
+}
+
+.theater_bg {
+    height: 400px;
+    width: 100vw;
+}
